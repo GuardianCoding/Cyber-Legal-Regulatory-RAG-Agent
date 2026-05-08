@@ -1,0 +1,13 @@
+anthropic
+chromadb
+langchain
+langchain-anthropic
+langchain-community
+langgraph
+sentence-transformers
+rank-bm25
+pymupdf
+streamlit
+python-dotenv
+openai
+ragas
