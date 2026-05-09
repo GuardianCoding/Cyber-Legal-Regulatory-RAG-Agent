@@ -10,6 +10,7 @@ llama-index-embeddings-openai
 llama-index-vector-stores-chroma
 llama-index-retrievers-bm25
 llama-index-postprocessor-sbert-rerank
+llama-index-llms-openai
 
 # Vector DB
 chromadb
