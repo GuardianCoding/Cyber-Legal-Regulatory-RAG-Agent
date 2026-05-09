@@ -1,13 +1,33 @@
+# LLM & Agent
 anthropic
-chromadb
-langchain
-langchain-anthropic
-langchain-community
 langgraph
+langchain-anthropic
+
+# LlamaIndex core + integrations
+llama-index-core
+llama-index-readers-file
+llama-index-embeddings-openai
+llama-index-vector-stores-chroma
+llama-index-retrievers-bm25
+llama-index-postprocessor-sbert-rerank
+
+# Vector DB
+chromadb
+
+# Reranker (used by llama-index-postprocessor-sbert-rerank)
 sentence-transformers
-rank-bm25
-pymupdf
-streamlit
-python-dotenv
+
+# Embeddings API
 openai
+
+# PDF parsing (used by LlamaIndex SimpleDirectoryReader)
+pypdf
+
+# UI
+streamlit
+
+# Env
+python-dotenv
+
+# Eval (optional but nice)
 ragas
