@@ -48,7 +48,7 @@ def hybrid_search(query: str, doc_type_filter: str | None = None) -> list[dict]:
     return [
         {
             "text": n.get_content(),
-            "source": n.metadata.get("source", ""),
+            "source": n.metadata.get("source") or n.metadata.get("file_name", ""),
             "document_type": n.metadata.get("document_type", ""),
             "topic": n.metadata.get("topic", ""),
             "score": float(n.score) if n.score is not None else 0.0,
