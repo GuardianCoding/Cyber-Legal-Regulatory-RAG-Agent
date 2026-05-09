@@ -5,8 +5,8 @@ from typing import Optional, TypedDict
 import anthropic
 from langgraph.graph import StateGraph, END
 
-from config import ANTHROPIC_API_KEY, LLM_DEV
-from tools import hybrid_search
+from src.config import ANTHROPIC_API_KEY, LLM_DEV
+from src.tools import hybrid_search
 
 _SYSTEM_PROMPT = (
     "You are a legal research assistant specialising in Australian cybersecurity law, "

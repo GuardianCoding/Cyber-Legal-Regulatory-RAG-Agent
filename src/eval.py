@@ -5,8 +5,8 @@ Measures retrieval recall (keyword hit in any retrieved chunk) and grounding rat
 Run with: python src/eval.py
 """
 
-from tools import hybrid_search
-from agent import run_agent
+from src.tools import hybrid_search
+from src.agent import run_agent
 
 QA_PAIRS = [
     {
