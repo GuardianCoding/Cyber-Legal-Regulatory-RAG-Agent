@@ -6,7 +6,7 @@ from llama_index.core.postprocessor import SentenceTransformerRerank
 from llama_index.vector_stores.chroma import ChromaVectorStore
 import chromadb
 
-from src.config import CHROMA_PATH, CHROMA_COLLECTION
+from config import CHROMA_PATH, CHROMA_COLLECTION
 
 # Load persisted index once at module level — never re-embeds
 _chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
