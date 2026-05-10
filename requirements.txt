@@ -32,3 +32,6 @@ python-dotenv
 
 # Eval (optional but nice)
 ragas
+
+# Testing
+pytest
